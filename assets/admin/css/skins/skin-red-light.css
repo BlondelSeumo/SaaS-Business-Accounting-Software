@@ -1,0 +1,162 @@
+/*---Skin: Red light---*/
+/*---light sidebar---*/
+
+.skin-red-light .main-header .navbar {
+  background-color: #ef5350;
+}
+.skin-red-light .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-red-light .main-header .navbar .nav > li > a:hover,
+.skin-red-light .main-header .navbar .nav > li > a:active,
+.skin-red-light .main-header .navbar .nav > li > a:focus,
+.skin-red-light .main-header .navbar .nav .open > a,
+.skin-red-light .main-header .navbar .nav .open > a:hover,
+.skin-red-light .main-header .navbar .nav .open > a:focus,
+.skin-red-light .main-header .navbar .nav > .active > a,
+.skin-red-light.layout-top-nav .mega-dropdown > a.nav-link.dropdown-toggle:hover{
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-red-light .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-red-light .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-red-light .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-red-light .main-header .navbar .sidebar-toggle:hover {
+  background-color: transparent;
+}
+@media (max-width: 767px) {
+  .skin-red-light .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-red-light .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-red-light .main-header .navbar .dropdown-menu li a:hover {
+    background: #e73f3c;
+  }
+}
+.skin-red-light .main-header .logo {
+  background-color: #e73f3c;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-red-light .main-header .logo:hover {
+  background-color: #ef5350;
+}
+.skin-red-light .main-header li.user-header {
+  background-color: #fff;
+}
+.skin-red-light .content-header {
+  background: #f2f6f8;
+}
+.skin-red-light .content {
+  background: #f2f6f8;
+}
+.skin-red-light .wrapper,
+.skin-red-light .main-sidebar,
+.skin-red-light .left-side {
+  background-color: #ffffff;
+  box-shadow: 1px 0px 20px rgba(0,0,0,0.08);
+}
+.skin-red-light .user-panel > .info,
+.skin-red-light .user-panel > .info > a {
+  color: #fff;
+}
+
+.skin-red-light .sidebar-menu > li.header {
+  color: #333;
+  background: #fff;
+}
+.skin-red-light .sidebar-menu > li > a {
+  border-left:none;
+}
+.skin-red-light .sidebar-menu > li:hover > a{
+  color: #ef5350;
+  background: rgba(0,0,0,0.1);
+}
+.skin-red-light .sidebar-menu > li.active > a,
+.skin-red-light .sidebar-menu > li.menu-open > a {
+  color: #ef5350;
+}
+.skin-red-light .sidebar-menu > li.active > a {
+  border-left-color: #ef5350;
+}
+.skin-red-light .sidebar-menu > li > .treeview-menu {
+  margin: 0 0px;
+  background: #f0f4f6;
+}
+.skin-red-light .sidebar a {
+  color: #9ea9b9;
+}
+.skin-red-light .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-red-light .sidebar-menu .treeview-menu > li > a {
+  color: #9ea9b9;
+}
+.skin-red-light .sidebar-menu .treeview-menu > li.active > a,
+.skin-red-light .sidebar-menu .treeview-menu > li > a:hover {
+  color: #ef5350;
+}
+.skin-red-light .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #898989;
+}
+.skin-red-light .sidebar-form input[type="text"],
+.skin-red-light .sidebar-form .btn {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.59);
+  border: 1px solid rgba(0, 0, 0, 0.59);
+  height: 35px;
+}
+.skin-red-light .sidebar-form input[type="text"] {
+  color: #fff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-red-light .sidebar-form input[type="text"]:focus,
+.skin-red-light .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  color: #fff;
+}
+.skin-red-light .sidebar-form .btn {
+  color: #f7f7f7;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-red-light.layout-top-nav .main-header > .logo {
+  background-color: #e73f3c;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-red-light.layout-top-nav .main-header > .logo:hover {
+  background-color: #ef5350;
+}
+.skin-red-light .btn-blue{
+	background-color: #ef5350;
+	color: #fff;
+	border: 1px solid #ef5350;
+}
+.skin-red-light .btn-blue:hover{
+	background-color: #fff;
+	color: #ef5350;	
+}
+.horizontal-menu .skin-red-light.layout-top-nav .sidebar-menu > li.active > a {
+    background: #ef5350;
+	color: #fff;
+}
+
+.skin-red-light .main-header .messages-menu .dropdown-toggle i::after, .skin-red-light .main-header .notifications-menu .dropdown-toggle i::after, .skin-red-light .main-header .tasks-menu .dropdown-toggle i::after {
+    border-color: #ef5350;	
+    background-color: #06d79c;
+}

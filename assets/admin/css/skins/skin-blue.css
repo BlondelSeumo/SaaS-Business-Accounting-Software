@@ -1,0 +1,159 @@
+/*---Skin: Blue---*/
+
+.skin-blue .main-header .navbar {
+  background-color: #398bf7;
+}
+.skin-blue .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-blue .main-header .navbar .nav > li > a:hover,
+.skin-blue .main-header .navbar .nav > li > a:active,
+.skin-blue .main-header .navbar .nav > li > a:focus,
+.skin-blue .main-header .navbar .nav .open > a,
+.skin-blue .main-header .navbar .nav .open > a:hover,
+.skin-blue .main-header .navbar .nav .open > a:focus,
+.skin-blue .main-header .navbar .nav > .active > a,
+.skin-blue.layout-top-nav .mega-dropdown > a.nav-link.dropdown-toggle:hover{
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-blue .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-blue .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: transparent;
+}
+@media (max-width: 767px) {
+  .skin-blue .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-blue .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-blue .main-header .navbar .dropdown-menu li a:hover {
+    background: #398bf7;
+  }
+}
+.skin-blue .main-header .logo {
+  background-color: #398bf7;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-blue .main-header .logo:hover {
+  background-color: #398bf7;
+}
+.skin-blue .main-header li.user-header {
+  background-color: #fff;
+}
+.skin-blue .content-header {
+  background: #f2f6f8;
+}
+.skin-blue .content {
+  background: #f2f6f8;
+}
+.skin-blue .wrapper,
+.skin-blue .main-sidebar,
+.skin-blue .left-side {
+  background-color: #242a33;
+  box-shadow: 1px 0px 20px rgba(0,0,0,0.08);
+}
+.skin-blue .user-panel > .info,
+.skin-blue .user-panel > .info > a {
+  color: #fff;
+}
+
+.skin-blue .sidebar-menu > li.header {
+  color: #333;
+  background: #fff;
+}
+.skin-blue .sidebar-menu > li > a {
+  border-left:none;
+}
+.skin-blue .sidebar-menu > li:hover > a{
+  color: #ffffff;
+  background: rgba(0,0,0,0.1);
+}
+.skin-blue .sidebar-menu > li.active > a,
+.skin-blue .sidebar-menu > li.menu-open > a {
+  color: #ffffff;
+}
+.skin-blue .sidebar-menu > li.active > a {
+  border-left-color: #398bf7;
+}
+.skin-blue .sidebar-menu > li > .treeview-menu {
+  margin: 0 0px;
+  background: #242a33;
+}
+.skin-blue .sidebar a {
+  color: #9ea9b9;
+}
+.skin-blue .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-blue .sidebar-menu .treeview-menu > li > a {
+  color: #9ea9b9;
+}
+.skin-blue .sidebar-menu .treeview-menu > li.active > a,
+.skin-blue .sidebar-menu .treeview-menu > li > a:hover {
+  color: #fff;
+}
+.skin-blue .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #898989;
+}
+.skin-blue .sidebar-form input[type="text"],
+.skin-blue .sidebar-form .btn {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.59);
+  border: 1px solid rgba(0, 0, 0, 0.59);
+  height: 35px;
+}
+.skin-blue .sidebar-form input[type="text"] {
+  color: #fff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-blue .sidebar-form input[type="text"]:focus,
+.skin-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  color: #fff;
+}
+.skin-blue .sidebar-form .btn {
+  color: #f7f7f7;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-blue.layout-top-nav .main-header > .logo {
+  background-color: #398bf7;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-blue.layout-top-nav .main-header > .logo:hover {
+  background-color: #398bf7;
+}
+.skin-blue .btn-blue{
+	background-color: #398bf7;
+	color: #fff;
+	border: 1px solid #398bf7;
+}
+.skin-blue .btn-blue:hover{
+	background-color: #fff;
+	color: #398bf7;	
+}
+.horizontal-menu .skin-blue.layout-top-nav .sidebar-menu > li.active > a {
+    background: #398bf7;
+	color: #fff;
+}
+.skin-blue .main-header .messages-menu .dropdown-toggle i::after, .skin-blue .main-header .notifications-menu .dropdown-toggle i::after, .skin-blue .main-header .tasks-menu .dropdown-toggle i::after {
+    border-color: #398bf7;
+}

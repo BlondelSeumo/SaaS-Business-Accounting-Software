@@ -1,0 +1,228 @@
+body {
+    background: #fff;  /* fallback for old browsers */
+    font-family: 'Nunito Sans', sans-serif;
+    color: #222 !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+.logo-cnt {
+    text-align: center;
+    color: #fff;
+    padding: 60px 0 40px 0;
+}
+
+.logo-cnt img {
+    width: 25%;
+}
+
+.step-icon i.fa {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.logo-cnt h1 {
+    color: #555;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.logo-cnt p{
+    color:#333;
+    margin: 0;
+}
+
+.install-box {
+    width: 100%;
+    padding: 30px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fafafa;
+    border-radius: 4px;
+    display: block;
+    float: left;
+    margin-bottom: 350px;
+    box-shadow: 0px 0px 7px -2px #ddd;
+}
+
+.form-input {
+    box-shadow: none !important;
+    border: 2px solid #ddd;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 20px;
+}
+
+.form-input:focus {
+    border-color: #2568ef !important;
+}
+
+.btn-custom {
+    background-color: #2568ef !important;
+    border-color: #2568ef !important;
+    border: 0 none;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+    height: 38px;
+    line-height: 38px;
+    margin: 0;
+    min-width: 105px;
+    padding: 0 20px;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+.btn-custom-sm {
+    background-color: #2568ef !important;
+    border-color: #2568ef !important;
+    border: 0 none;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 500;
+    height: 32px;
+    line-height: 30px;
+    margin: 0;
+    min-width: 105px;
+    padding: 0 20px;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+.btn-custom:hover, .btn-custom:active, .btn-custom:focus{
+    background-color: #2568ef;
+    border-color:#2568ef;
+    opacity: .8;
+}
+
+.btn-custom-sm:hover, .btn-custom-sm:active, .btn-custom-sm:focus{
+    background-color: #2568ef;
+    border-color:#2568ef;
+    opacity: .8;
+}
+
+.steps {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.step {
+    float: left;
+    display: block;
+    padding: 0 5px;
+    position: relative;
+    width: 25%;
+    text-align: center;
+}
+
+.step-icon {
+    background: #ddd;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 50px;
+    line-height: 40px;
+    margin-top: 4px;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 2;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.step p {
+    color: #ccc;
+}
+
+.step.active p {
+    color: #2568ef;
+}
+
+.step.active .step-icon {
+    background: #2568ef;
+    font-size: 22px;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 0;
+    width: 48px;
+}
+
+.step-progress {
+    background: #ddd;
+    height: 5px;
+    border-radius: 50px;
+    left: 0;
+    position: absolute;
+    top: 54px;
+    width: 100%;
+}
+.step-progress-line {
+    background: #2568ef;
+    height: 5px;
+    border-radius: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.step-contents{
+    float: left;
+    display: block;
+    width: 100%;
+}
+.tab-content{
+    width: 100%;
+    float: left;
+    display: block;
+}
+.tab-footer{
+    width: 100%;
+    float: left;
+    display: block;
+}
+.buttons{
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.step-title{
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.alert{
+    text-align: center;
+}
+.alert strong{
+    font-weight: 500 !important;
+}
